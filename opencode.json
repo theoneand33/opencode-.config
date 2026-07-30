@@ -1,0 +1,22 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "openrouter/stepfun/step-3.5-flash:free",
+  "autoupdate": true,
+  "permission": {
+    "*": "allow",
+    "read": {
+      "*": "allow",
+      "*.env": "deny",
+      "*.env.*": "deny",
+      "*.env.example": "allow"
+    },
+    "external_directory": {
+      "~/**": "allow"
+    }
+  },
+  "plugin": [
+    "openslimedit@latest",
+    "/home/noah/.local/share/ponytail/.opencode/plugins/ponytail.mjs",
+    "/home/noah/.agents/skills/ste-writing/.opencode/plugins/ste-writing.mjs"
+  ]
+}
