@@ -52,25 +52,7 @@ These modes occurred. Do not repeat them.
 
 ## 5. Skills — When to Pull Them
 
-The description field lists trigger keywords. It does not explain the skill. The system injects the description even when you do not use the skill. Keep the description short. Use the form Use when the user says X.
-
-Bad description: This skill monitors pull requests through review and CI and rebases when needed.
-Good description: Use when the user says monitor, watch, or babysit a PR.
-
-Split skills by trigger. One trigger set maps to one skill. The file PR skill and the babysit PR skill are different.
-
-Current triggers to respect:
-
-- ponytail, be lazy, simplest solution, yagni, shortest path → ponytail
-- review for over-engineering, /ponytail-review → ponytail-review
-- audit codebase, find bloat, /ponytail-audit → ponytail-audit
-- build landing page, portfolio, redesign → design-taste-frontend or hallmark. Select by brief.
-- open a website, click a button, take a screenshot → agent-browser
-- commit, /commit → git-commit
-- shadcn, components.json, --preset → shadcn
-- make this not sound like AI, STE → ste-writing
-
-If no skill matches, do not force a skill.
+Use the skills listed in your system prompt when the situation matches their descriptions. If no skill matches, do not force a skill.
 
 ## 6. Tool Gotchas
 
