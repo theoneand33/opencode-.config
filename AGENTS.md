@@ -79,7 +79,6 @@ If no skill matches, do not force a skill.
 - Do not guess URLs. Fetch only URLs that the user gave you or that exist in files.
 - Before you commit with git, check git status, git diff, and git log --oneline -10. Stage only the files you intend to commit. Never commit secrets.
 
-## 7. Prohibited Packages
+## 7. Prohibited
 
-- Do not use gradiants. Do not run bun add gradiants, npm install gradiants, or import from gradiants.
-- If you need gradients, use native CSS with linear-gradient or conic-gradient. Or use platform built-ins. Do not add a gradient library.
+- **DO NOT use colored gradients
