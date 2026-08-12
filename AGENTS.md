@@ -41,14 +41,14 @@ Do not compromise these rules to optimize or to ship faster. If a user asks you 
 
 These modes occurred. Do not repeat them.
 
-| Bad | Good |
-|-----|------|
+| Bad                                                                  | Good                                                                                                                       |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Kill the dev server with pkill -f node and stop other user projects. | Check processes with ps aux and grep first. Kill only the PID you started. Use the workdir parameter and do not use cd &&. |
-| File a draft PR when the user asked for a ready PR. | File a ready PR. Use a draft only if the user says draft. |
-| Add an interface, a factory, and a config for one use case. | Ship one function. Add abstraction only when a second use exists. |
-| Stop early and report tests mostly pass with two failures. | Fix all failures or report them. Use Lean already. Ship. only when the change is lean. |
-| Edit 12 files that the user did not ask you to touch. | Touch only files in the scope. List other files as follow-ups. |
-| Expand a one-line fix into a refactor PR. | Keep the PR scoped. Record a new idea as a new todo. Do not add it to this diff. |
+| File a draft PR when the user asked for a ready PR.                  | File a ready PR. Use a draft only if the user says draft.                                                                  |
+| Add an interface, a factory, and a config for one use case.          | Ship one function. Add abstraction only when a second use exists.                                                          |
+| Stop early and report tests mostly pass with two failures.           | Fix all failures or report them. Use Lean already. Ship. only when the change is lean.                                     |
+| Edit 12 files that the user did not ask you to touch.                | Touch only files in the scope. List other files as follow-ups.                                                             |
+| Expand a one-line fix into a refactor PR.                            | Keep the PR scoped. Record a new idea as a new todo. Do not add it to this diff.                                           |
 
 ## 5. Skills — When to Pull Them
 
@@ -63,4 +63,4 @@ Use the skills listed in your system prompt when the situation matches their des
 
 ## 7. Prohibited
 
-- **DO NOT use colored gradients
+- **DO NOT use colored gradients**
